@@ -23,3 +23,4 @@ function phoneticLookup(val) {
       const propiertie = propierties[i];
       console.log(phoneticLookup(propiertie));
   }
+  
