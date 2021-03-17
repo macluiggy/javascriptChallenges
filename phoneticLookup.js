@@ -1,0 +1,25 @@
+// Setup
+function phoneticLookup(val) {
+    var result = "";
+  
+    // Only change code below this line
+    var lookup = {
+        alpha: 'Adams',
+        bravo: 'Boston',
+        charlie: 'Chicago',
+        delta: 'Denver',
+        echo: 'Easy',
+        foxtrot: 'Frank',
+        '': undefined
+    }
+    result = lookup[val];
+  
+    // Only change code above this line
+    return result;
+  }
+  
+  var propierties = ['alpha', 'bravo', "charlie", 'delta', 'echo', 'foxtrot', ''];
+  for (let i = 0; i < propierties.length; i++) {
+      const propiertie = propierties[i];
+      console.log(phoneticLookup(propiertie));
+  }
